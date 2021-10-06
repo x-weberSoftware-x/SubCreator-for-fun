@@ -11,6 +11,7 @@
                 <a class="name" href="/subs/{{ $sub->id }}">{{ $sub->name }}</a> 
             </div>
         @endforeach
+        <a class="create" href="/">Home</a>
     </div>
 
 @endsection
